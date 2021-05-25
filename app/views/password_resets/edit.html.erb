@@ -1,0 +1,19 @@
+<h1>Reset your password?</h1>
+
+<%= form_with url: password_reset_edit_path do |f| %>
+	
+	<div class="mb-3">
+	  <%= f.label :Password %>
+	  <%= f.password_field :password, class: 'form-control' %>
+	</div>
+
+	<div class="mb-3"> 
+	  <%= f.label :Password_confirmation %>
+	  <%= f.password_field :password_confirmation, class: 'form-control' %>
+	</div>
+
+	<div class="mb-3">
+	  <%= f.submit "Reset Password", class: 'btn btn-primary' %>
+	</div> 
+<% end %>
+
