@@ -1,24 +1,42 @@
-# README
+##Tweepscheduler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tweepscheduler is a rails app that is used to schedule tweets to be posted at certain times.
 
-Things you may want to cover:
 
-* Ruby version
+###Setup
 
-* System dependencies
+Clone the github repository and use bundler to install the gem dependecies.
 
-* Configuration
+```
+$ git clone https://github.com/buildwithallan/tweepscheduler.git
+$ cd tweepscheduler
+$ bundle install 
+```
 
-* Database creation
 
-* Database initialization
+###Database creation and initialization
 
-* How to run the test suite
+Create database
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails db:create
+```
 
-* Deployment instructions
+Migrate database
 
-* ...
+```
+$ rails db:migrate
+```
+
+
+###Running the server
+You can run the server by running the command below
+```
+$ rails s
+```
+
+
+###Deployed project
+
+This project is deployed on heroku: https://tweepscheduler.herokuapp.com
+
