@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   
-  
-  get 'about', to: 'about#index'
+
   root to: 'main#index'
 
   get 'password/reset', to: 'password_resets#new'
