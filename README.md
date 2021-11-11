@@ -35,8 +35,3 @@ You can run the server by running the command below
 $ rails s
 ```
 
-
-### Deployed project
-
-This project is deployed on heroku: https://tweepscheduler.herokuapp.com
-
